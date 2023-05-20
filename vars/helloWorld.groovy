@@ -1,4 +1,4 @@
-def call(){
-  bat "echo hello world, via bat"
+def call( Map cfg = [:] ){
+  bat "echo herster param: ${cfg.name}"
   echo " nochmal echo"
 }
