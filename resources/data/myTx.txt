@@ -1,4 +1,4 @@
 das ist 
 mein text
-+ +$VAL++
++<tag> +"$VAL"++
 in duese rdatei
