@@ -2,5 +2,5 @@ das ist
 mein text
 ++${wert}++
 ++$(wert)++
-++$VAL++
++<tg>+"$VAL"++
 in duese rdatei
