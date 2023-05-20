@@ -1,6 +1,6 @@
 def call( Map cfg =[:] ){
-  def scrContent = libraryResource("data/myTx.txt")
-  def wert = "blah balh"
-   scrContent.text.replaceAll( '#', 'fff' )
+  String  scrContent = libraryResource("data/myTx.txt")
+  String  wert = "blah balh"
+   scrContent.replaceAll( '#', 'fff' )
   writeFile file : "ff" , text : scrContent
 }
