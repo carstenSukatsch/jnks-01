@@ -1,4 +1,5 @@
 das ist 
 mein text
 ++${wert}++
+++$(wert)++
 in duese rdatei
