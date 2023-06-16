@@ -7,7 +7,7 @@ def call( Map cfg = [:] ){
   
   bat '''
     @echo OFF
-    set PATH=%PATH%;C:\Users\carst\Documents\jenkins-ideen\peek
+    set PATH=%PATH%;C:\\Users\\carst\\Documents\\jenkins-ideen\\peek
     echo "call something "
     call hi.cmd
     path
