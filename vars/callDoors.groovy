@@ -1,4 +1,5 @@
 
+
 def call( Map cfg = [:] ){
 
   echo " param: ${cfg.name}"
@@ -11,6 +12,11 @@ def call( Map cfg = [:] ){
     echo "call something "
     call hi.cmd
     path
+  '''
+
+  ps '''
+   $env:Path += ';C:\\Users\\carst\\Documents\\jenkins-ideen\\peek'
+   call hi.cmd
   '''
   
 }
