@@ -14,9 +14,10 @@ def call( Map cfg = [:] ){
     path
   '''
 
-  ps '''
-   $env:Path += ';C:\\Users\\carst\\Documents\\jenkins-ideen\\peek'
-   call hi.cmd
-  '''
-  
+  script{
+    ps '''
+     $env:Path += ';C:\\Users\\carst\\Documents\\jenkins-ideen\\peek'
+     call hi.cmd
+    '''
+  }
 }
