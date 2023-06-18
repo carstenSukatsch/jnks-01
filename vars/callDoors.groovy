@@ -15,7 +15,7 @@ def call( Map cfg = [:] ){
   '''
 
   script{
-    ps '''
+    powershell '''
      $env:Path += ';C:\\Users\\carst\\Documents\\jenkins-ideen\\peek'
      call hi.cmd
     '''
