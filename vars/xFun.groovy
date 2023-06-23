@@ -5,7 +5,7 @@ String  call(  ){
 "C:\\Program Files\\IBM\\Rational\\DOORS\\9.7\\bin"
  ]
  
-/// pfade.addAll( bt )
+pfade.addAll( bt )
  
  
  return  pfade.join(';')
