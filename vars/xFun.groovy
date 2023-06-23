@@ -6,5 +6,5 @@ String  call(  ){
 "\\\\afra-svdoorsfs\\DoorsHome97\$\\DAs_RM_DOORS_Extensions\\batch\\jobs\\ciBatch\\state3JUnit"
  ]
  
- return  pfade..join(';')
+ return  pfade.join(';')
 }
