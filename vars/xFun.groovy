@@ -2,12 +2,10 @@ String  call(  ){
 
  String bt = xf2()
  String b2 = "C:\\Program Files\\IBM\\Rational\\DOORS\\9.7\\bin"
+ 
  def  pfade = [
-     b2
+     b2, bt
  ]
- 
-pfade.addAll( bt )
- 
  
  return  pfade.join(';')
 }
