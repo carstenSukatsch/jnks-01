@@ -7,7 +7,7 @@ class GlobalVars {
     "2´d:\\ein\\verzeichnis"
  ]
 
- def f1()
+ static def f1()
    {
       return " nix dolles"
    }
