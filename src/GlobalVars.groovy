@@ -11,7 +11,11 @@ class GlobalVars {
    {
       return " nix dolles"
    }
-
+   
+ static def f2()
+   {
+      return  this.pfade.join(';')
+   }
   
 }
 
