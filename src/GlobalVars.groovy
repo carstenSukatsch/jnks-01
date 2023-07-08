@@ -4,7 +4,7 @@ class GlobalVars {
   
    static List pfade = [
     "c:\\dir-q",
-    "2´d:\\ein\\verzeichnis"
+    "d:\\ein\\verzeichnis"
  ]
 
  static def f1()
